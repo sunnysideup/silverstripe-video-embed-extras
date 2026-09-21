@@ -1,35 +1,35 @@
 {
-  "name": "sunnysideup/video-embed-extras",
-  "type": "silverstripe-vendormodule",
-  "description": "Allow Fullscreen TinyMCE video embed, lazy loading and other features",
-  "keywords": [
-    "Silverstripe-CMS",
-    "CMS",
-    "Silverstripe",
-    "vimeo",
-    "video",
-    "youtube",
-    "fullscreen",
-    "full screen",
-    "lazy loading",
-    "speed",
-    "short codes",
-    "TinyMCE"
-  ],
-  "license": "BSD-3-Clause",
-  "authors": [
-    {
-      "name": "Nicolaas Francken",
-      "email": "modules@sunnysideup.co.nz",
-      "role": "lead developer"
+    "name": "sunnysideup/video-embed-extras",
+    "type": "silverstripe-vendormodule",
+    "description": "Allow Fullscreen TinyMCE video embed, lazy loading and other features",
+    "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
+        "vimeo",
+        "video",
+        "youtube",
+        "fullscreen",
+        "full screen",
+        "lazy loading",
+        "speed",
+        "short codes",
+        "TinyMCE"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nicolaas Francken",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/recipe-core": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sunnysideup\\VideoEmbedExtras\\": "src/"
+        }
     }
-  ],
-  "require": {
-    "silverstripe/recipe-core": "^4.0 || ^5.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "Sunnysideup\\VideoEmbedExtras\\": "src/"
-    }
-  }
 }
